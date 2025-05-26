@@ -5,8 +5,7 @@
 
 ## 🌐 公開サイト
 
-👉 [https://yourusername.github.io/calendar-web/](https://yourusername.github.io/calendar-web/)  
-※ あなたのGitHub PagesのURLに置き換えてください。
+👉 [https://puchanko.github.io/karender-app/](https://puchanko.github.io/karender-app/)  
 
 ## 📦 機能概要
 
@@ -20,23 +19,16 @@
 ## 📁 ファイル構成
 
 calendar-web/
-├── index.html # メインのHTML（JavaScriptも含む）
-└── README.md # このファイル
-
-> ※ CSSやJavaScriptを分離しても構いませんが、1ファイル構成でも動作します。
-
-## 🚀 公開方法（GitHub Pages）
-
-1. このリポジトリを `main` ブランチで push
-2. GitHubの [Settings] → [Pages] を開く
-3. 「Branch: `main` / root」に設定して保存
-4. 数十秒後に公開URLが表示されます
+├── index.html
+└── style.css
+└── script.js
+└── README.md
 
 ## 📸 使用ライブラリ
 
 - [html2canvas](https://html2canvas.hertzen.com/)（CDN経由で使用）
 
-## 🛠️ 今後の改善予定（例）
+## 🛠️ 今後の改善予定
 
 - ダークモード対応
 - PDF出力対応
