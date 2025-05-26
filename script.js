@@ -159,7 +159,7 @@ window.addEventListener('DOMContentLoaded', () => {
         container.appendChild(table);
         document.body.appendChild(container);
 
-        html2canvas(container, { scale: 1 }).then(canvas => {
+        html2canvas(container, { scale: 1.5 }).then(canvas => {
             document.body.removeChild(container);
             const imgData = canvas.toDataURL('image/png');
 
