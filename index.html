@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カレンダー画像メーカー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>カレンダー画像メーカー</h1>
+    </header>
+    <main>
+        <form id="setup-form">
+            <label>カレンダーのタイトル:
+                <input type="text" id="calendar-title" required>
+            </label>
+            <label>表示する年月:
+                <select id="month-select" required></select>
+            </label>
+            <button type="submit">予定入力画面を表示</button>
+        </form>
+
+        <div id="planner-container" style="display:none;">
+            <h2 id="planner-title" class="calendar-title"></h2>
+            <div id="planner-table"></div>
+            <button id="preview-btn">カレンダー画像を作成</button>
+        </div>
+    </main>
+    <script src="html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

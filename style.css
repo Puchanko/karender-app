@@ -1,0 +1,170 @@
+/* style.css */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 24px 32px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+main {
+    padding: 32px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+form,
+#planner-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+label {
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.calendar-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* 入力画面のテーブル */
+table.planner-table {
+    width: 100%;
+    table-layout: auto;
+}
+
+th {
+    width: 140px;
+    vertical-align: top;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.planner-row.saturday {
+    background-color: #eef6ff;
+}
+
+.planner-row.sunday,
+.planner-row.holiday {
+    background-color: #fff2f2;
+}
+
+.holiday-label.input {
+    font-size: 11px;
+    color: #c00;
+    margin-top: 4px;
+}
+
+.holiday-label.output {
+    font-size: 9px;
+    color: #c00;
+    margin-top: 2px;
+}
+
+/* 出力画像用のテーブル */
+table.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+table.calendar th,
+table.calendar td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+table.calendar th {
+    background-color: #fff9dc;
+    font-weight: 500;
+    height: 28px;
+}
+
+table.calendar td.saturday {
+    background-color: #eef6ff;
+}
+
+table.calendar td.sunday,
+table.calendar td.holiday {
+    background-color: #fff2f2;
+}
+
+table.calendar td.empty {
+    background-color: #f0f0f0;
+}
+
+table.calendar td div {
+    min-height: 80px;
+    height: 80px;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+    display: block;
+}
