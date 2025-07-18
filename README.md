@@ -16,17 +16,9 @@
 - 入力画面と画像出力で美しく見やすいUI
 - 祝日はJavaScriptに定義された定数で反映済み
 
-## 📁 ファイル構成
-
-calendar-web/
-├── index.html
-└── style.css
-└── script.js
-└── README.md
-
 ## 📸 使用ライブラリ
 
-- [html2canvas](https://html2canvas.hertzen.com/)（CDN経由で使用）
+- [html2canvas](https://html2canvas.hertzen.com/)
 
 ## 🛠️ 今後の改善予定
 
